@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+main {
+    max-width: 1366px;
+    min-width: 768px;
+    font-size: 20px;
+}
+
+.bg-img {
+    background-image: url("../imgs/header-bailarina.jpg");
+    color: black;
+    max-width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0% 25%;
+    
+
+
+}
+
+header {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    letter-spacing: 10px;
+}
+
+.concepto {
+    background-color: gray;
+    background-size: contain;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 80px;
+    gap: 150px;
+    max-width: 100%;
+    line-height: 1.5;
+
+
+
+
+}
+
+.concepto p {
+    padding-top: 100px;
+    text-align: justify;
+    padding-left: 10px;
+    width: 30%;
+
+}
+span {
+    font-weight: 600;
+}
+
+.beneficios {
+    background-color: #ad9e9b;
+    text-align: center;
+    padding: 20px;
+    max-width: 100%;
+
+}
+
+.flex {
+
+    display: flex;
+    gap: 20px;
+
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.flex p {
+    padding: 30px 15px 30px 15px;
+    text-align: justify;
+
+}
+
+footer {
+
+    background-color: gray;
+    color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 50px;
+    max-width: 100%;
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    background-color: #d7b5f5;
+    max-width: 100%;
+    padding: 50px;
+
+}
+
+.imagen {
+    width: 260px;
+    height: 260px;
+}
+
+footer a:hover {
+    color: white;
+}
